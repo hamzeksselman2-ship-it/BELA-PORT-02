@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Selman | Cinematographer, Video Editor & Content Creator</title>
+    <meta name="description" content="Portfolio of Hamza Selman, a professional Cinematographer, Video Editor, and Content Creator with 6+ years of experience crafting premium visual stories.">
+    <meta name="keywords" content="Video Editor, Cinematographer, Content Creator, Hamza Selman, DaVinci Resolve, Premiere Pro, Showreel, Color Grading, Sound Design">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Hamza Selman | Cinematographer & Video Editor">
+    <meta property="og:description" content="Cinematography and video editing portfolio showcasing 6+ years of professional editing, color grading, and content creation.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">
+                <span class="logo-symbol">HS</span>
+                <span class="logo-text">HAMZA SELMAN</span>
+            </a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle between Dark and Light mode">
+                    <i data-lucide="moon" class="icon-moon"></i>
+                    <i data-lucide="sun" class="icon-sun"></i>
+                </button>
+                
+                <!-- Mobile Navigation Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+                    <i data-lucide="menu" class="icon-menu"></i>
+                    <i data-lucide="x" class="icon-close"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge fade-in">
+                    <i data-lucide="video" class="badge-icon"></i>
+                    <span>Cinematographer &bull; Video Editor</span>
+                </div>
+                <h1 class="hero-title fade-in-delay-1">
+                    Visualizing Stories <br>
+                    <span class="text-gradient">That Capture Minds</span>
+                </h1>
+                <p class="hero-description fade-in-delay-2">
+                    Hi, I'm Hamza Selman. With over <strong>6 years of experience</strong> in commercial editing, color grading, and cinematography, I transform raw footage into premium, high-impact stories.
+                </p>
+                <div class="hero-actions fade-in-delay-3">
+                    <a href="#showreel" class="btn btn-primary">
+                        <i data-lucide="play-circle"></i> Watch Showreel
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        Explore Work <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-stats fade-in-delay-4">
+                <div class="stat-card">
+                    <span class="stat-number">6+</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Videos Delivered</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Happy Brands & Creators</span>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#showreel" class="scroll-down" aria-label="Scroll to showreel">
+            <span class="scroll-text">Scroll Down</span>
+            <i data-lucide="chevrons-down" class="scroll-icon"></i>
+        </a>
+    </section>
+
+    <!-- Showreel Highlight Section -->
+    <section class="showreel-section" id="showreel">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Featured Work</span>
+                <h2 class="section-title">2026 Cinematic Showreel</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc max-width-600">
+                    A compilation of my best editing, pacing, composition, and sound design. Press play to view a snippet of what I create.
+                </p>
+            </div>
+            
+            <div class="showreel-container reveal-on-scroll">
+                <div class="showreel-wrapper">
+                    <img src="assets/images/showreel-thumb.png" alt="Hamza Selman Showreel Thumbnail" class="showreel-thumbnail">
+                    <div class="showreel-overlay">
+                        <button class="play-btn" id="play-showreel-btn" aria-label="Play Showreel" data-video="https://assets.mixkit.co/videos/preview/mixkit-cinematic-forest-waterfall-drone-shot-44357-large.mp4" data-title="2026 Cinematic Showreel">
+                            <span class="play-icon-wrapper">
+                                <i data-lucide="play" class="icon-play"></i>
+                            </span>
+                        </button>
+                        <div class="showreel-details">
+                            <h3>Showreel Reel 2026</h3>
+                            <p>Cinematography &bull; Color Grading &bull; Creative Editing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Projects Showcase</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc max-width-600">
+                    Explore a handpicked selection of videos I have created, edited, and graded. Use the filters below to browse categories.
+                </p>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="portfolio-filters reveal-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="commercial">Commercials</button>
+                <button class="filter-btn" data-filter="narrative">Short Films</button>
+                <button class="filter-btn" data-filter="music">Music Videos</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="portfolio-grid reveal-on-scroll">
+                <!-- Project 1: Commercial -->
+                <div class="portfolio-item" data-category="commercial">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/images/project1.png" alt="Vanguard Commercial Project" class="portfolio-thumbnail">
+                        <div class="portfolio-item-overlay">
+                            <button class="project-play-btn" aria-label="Play Project Video" data-video="https://assets.mixkit.co/videos/preview/mixkit-sports-car-driving-in-the-rain-40118-large.mp4" data-title="Vanguard - Next-Gen Tech Commercial">
+                                <i data-lucide="play"></i>
+                            </button>
+                            <div class="portfolio-item-details">
+                                <span class="portfolio-item-tag">Commercial</span>
+                                <h3 class="portfolio-item-title">Vanguard - Next-Gen Tech</h3>
+                                <p class="portfolio-item-role">Director & Editor</p>
+                                <div class="portfolio-item-meta">
+                                    <span><i data-lucide="tool"></i> DaVinci Resolve, Premiere</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Narrative Film -->
+                <div class="portfolio-item" data-category="narrative">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/images/project2.png" alt="Echoes of Silence Short Film" class="portfolio-thumbnail">
+                        <div class="portfolio-item-overlay">
+                            <button class="project-play-btn" aria-label="Play Project Video" data-video="https://assets.mixkit.co/videos/preview/mixkit-man-holding-an-umbrella-walking-in-rain-23363-large.mp4" data-title="Echoes of Silence - Short Film">
+                                <i data-lucide="play"></i>
+                            </button>
+                            <div class="portfolio-item-details">
+                                <span class="portfolio-item-tag">Short Film</span>
+                                <h3 class="portfolio-item-title">Echoes of Silence</h3>
+                                <p class="portfolio-item-role">Cinematographer & Lead Editor</p>
+                                <div class="portfolio-item-meta">
+                                    <span><i data-lucide="tool"></i> DaVinci Resolve (Teal/Orange Graded)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Music Video -->
+                <div class="portfolio-item" data-category="music">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/images/project3.png" alt="Neon Rhythms Music Video" class="portfolio-thumbnail">
+                        <div class="portfolio-item-overlay">
+                            <button class="project-play-btn" aria-label="Play Project Video" data-video="https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-dj-playing-music-on-a-mixer-41611-large.mp4" data-title="Neon Rhythms - Music Video">
+                                <i data-lucide="play"></i>
+                            </button>
+                            <div class="portfolio-item-details">
+                                <span class="portfolio-item-tag">Music Video</span>
+                                <h3 class="portfolio-item-title">Neon Rhythms</h3>
+                                <p class="portfolio-item-role">Creative Editor & Sound Design</p>
+                                <div class="portfolio-item-meta">
+                                    <span><i data-lucide="tool"></i> Premiere Pro, After Effects</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Social Media -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image-wrapper">
+                        <img src="assets/images/project4.png" alt="Roam Free Social Media Travel Video" class="portfolio-thumbnail">
+                        <div class="portfolio-item-overlay">
+                            <button class="project-play-btn" aria-label="Play Project Video" data-video="https://assets.mixkit.co/videos/preview/mixkit-hiker-standing-on-top-of-a-mountain-41584-large.mp4" data-title="Roam Free - Travel Series">
+                                <i data-lucide="play"></i>
+                            </button>
+                            <div class="portfolio-item-details">
+                                <span class="portfolio-item-tag">Social Media / Vlog</span>
+                                <h3 class="portfolio-item-title">Roam Free - Travel Series</h3>
+                                <p class="portfolio-item-role">Content Creator & Editor</p>
+                                <div class="portfolio-item-meta">
+                                    <span><i data-lucide="tool"></i> Premiere Pro (Fast-cut Pacing)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me & Skills Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="about-grid">
+                <!-- Biography and Headshot -->
+                <div class="about-image-column reveal-on-scroll">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/profile.png" alt="Hamza Selman Cinematographer & Editor" class="about-profile-img">
+                        <div class="about-image-accent"></div>
+                    </div>
+                </div>
+                
+                <div class="about-content-column reveal-on-scroll">
+                    <span class="section-subtitle text-left">About Me</span>
+                    <h2 class="section-title text-left">Behind the Lens & Edit Desk</h2>
+                    <div class="section-divider align-left"></div>
+                    
+                    <p class="about-text">
+                        I'm Hamza Selman, a visual storyteller based in the creative landscape. For the past <strong>6 years</strong>, I have dedicated myself to the craft of cinematography and video editing. My work is focused on making sure every cut, frame, sound effect, and color tone holds meaning and advances the narrative.
+                    </p>
+                    <p class="about-text">
+                        Whether shooting on-set with professional cinema rigs or diving deep into post-production workflows, I bridge the gap between creative vision and technical execution.
+                    </p>
+                    
+                    <!-- Skills Progress Area -->
+                    <div class="skills-wrapper">
+                        <h3 class="skills-heading">Technical Expertise</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Video Editing (Premiere Pro / FCPX)</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Color Grading (DaVinci Resolve Studio)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Cinematography & Camera Operations</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Sound Design & Audio Mastering</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="services-section" id="services">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Services</span>
+                <h2 class="section-title">What I Can Do For You</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc max-width-600">
+                    Providing comprehensive production and post-production solutions to scale your brand and tell your story.
+                </p>
+            </div>
+            
+            <div class="services-grid reveal-on-scroll">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i data-lucide="scissors" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Professional Editing</h3>
+                    <p class="service-description">
+                        Seamless transitions, narrative pacing, rhythm, dynamic cuts, and visual effects built around custom stories. Optimized for cinematic output, web series, and YouTube formats.
+                    </p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i data-lucide="aperture" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Color Grading</h3>
+                    <p class="service-description">
+                        Industry-grade color correction and grading using DaVinci Resolve. Adjusting exposures, building custom LUT paths, color matching multi-cam shoots, and shaping cinematic atmospheres.
+                    </p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i data-lucide="camera" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Cinematography</h3>
+                    <p class="service-description">
+                        Professional camera operations and creative direction. Experienced with RED, ARRI, Sony, and Blackmagic rigs to capture visually stunning frames, lighting setups, and camera moves.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon-box">
+                        <i data-lucide="music-4" class="service-icon"></i>
+                    </div>
+                    <h3 class="service-title">Sound Design</h3>
+                    <p class="service-description">
+                        Enhancing videos with multi-layered audio landscapes. Audio cleaning, sound effects (SFX) implementation, ambient layering, and mixing that elevates the emotional weight of your video.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section class="experience-section" id="experience">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">My Journey</span>
+                <h2 class="section-title">Experience & Milestones</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc max-width-600">
+                    A timeline of my professional accomplishments, freelance gigs, and roles over the past 6 years.
+                </p>
+            </div>
+            
+            <div class="timeline reveal-on-scroll">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">Lead Creative Editor & Director</h3>
+                        <h4 class="timeline-company">Vortex Media Group</h4>
+                        <p class="timeline-text">
+                            Directing and editing promotional campaigns, cinematic product launches, and commercial spots for global clients. Leading a team of junior editors and setting standard grading workflows in Resolve.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">Senior Freelance Cinematographer & Editor</h3>
+                        <h4 class="timeline-company">Self-Employed / Various Brands</h4>
+                        <p class="timeline-text">
+                            Worked with over 40+ brands and indie creators worldwide. Scripted, filmed, edited, and colored high-performing social media campaigns, documentaries, music videos, and travel logs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-role">In-House Video Editor</h3>
+                        <h4 class="timeline-company">PixelPerfect Agency</h4>
+                        <p class="timeline-text">
+                            Handled daily post-production tasks. Managed video ingestion, offline editing, music selection, audio cleanup, basic motion graphics creation, and delivery formats across platform specifications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Clients Say</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Carousel Container -->
+            <div class="testimonials-carousel-container reveal-on-scroll">
+                <div class="testimonials-carousel" id="testimonials-carousel">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-quote">
+                            "Hamza is a master of his craft. He took our raw product clips and turned them into a high-converting, cinematic masterwork. His attention to sound design and subtle grading changed the entire dynamic of our brand launch."
+                        </div>
+                        <div class="testimonial-client">
+                            <span class="client-name">Sarah Jenkins</span>
+                            <span class="client-title">Creative Director, Vanguard Tech</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            "Having worked with many editors, Hamza's sense of timing and pacing stands out. He knows exactly when a cut should land to keep viewers glued to the screen. A phenomenal cinematographer as well."
+                        </div>
+                        <div class="testimonial-client">
+                            <span class="client-name">Alex Rivera</span>
+                            <span class="client-title">Music Artist & Independent Producer</span>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-quote">
+                            "Incredible visual aesthetic! Hamza delivered our social media travel series ahead of schedule and with grading that looked straight out of a movie theatre. Highly recommend him for any visual project."
+                        </div>
+                        <div class="testimonial-client">
+                            <span class="client-name">Emma Watson</span>
+                            <span class="client-title">Founder, Roam Free Vlogs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dot Controls -->
+                <div class="carousel-dots" id="carousel-dots">
+                    <button class="dot active" aria-label="Go to testimonial slide 1"></button>
+                    <button class="dot" aria-label="Go to testimonial slide 2"></button>
+                    <button class="dot" aria-label="Go to testimonial slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Let's Create Together</h2>
+                <div class="section-divider"></div>
+                <p class="section-desc max-width-600">
+                    Have an upcoming project, a music video, or want a cinematic commercial spot? Fill out the form or email me directly.
+                </p>
+            </div>
+            
+            <div class="contact-grid reveal-on-scroll">
+                <!-- Info Cards Column -->
+                <div class="contact-info-column">
+                    <div class="info-card">
+                        <div class="info-icon-box">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email Me</h4>
+                            <a href="mailto:hello@hamzaselman.com">hello@hamzaselman.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon-box">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Based In</h4>
+                            <span>Istanbul, Turkey (Open to global travel)</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon-box">
+                            <i data-lucide="share-2"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Follow My Work</h4>
+                            <div class="social-links">
+                                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+                                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                                <a href="https://vimeo.com" target="_blank" rel="noopener" aria-label="Vimeo"><i data-lucide="video"></i></a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="contact-form-column">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required placeholder="e.g. John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required placeholder="e.g. john@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Project Type</label>
+                            <select id="subject" name="subject">
+                                <option value="commercial">Commercial Video Editing</option>
+                                <option value="grading">Cinematic Color Grading</option>
+                                <option value="music">Music Video</option>
+                                <option value="production">Full Camera Cinematography</option>
+                                <option value="social">Social Media Campaigns</option>
+                                <option value="other">Other Collaboration</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your timeline, ideas, and references..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Send Message <i data-lucide="send"></i>
+                        </button>
+                        
+                        <!-- Form Success Message Box -->
+                        <div class="form-alert success-alert" id="form-success-alert">
+                            <i data-lucide="check-circle2"></i>
+                            <div>
+                                <strong>Message Sent Successfully!</strong>
+                                <p>Thank you. Hamza will get back to you within 24 hours.</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>HAMZA SELMAN</h3>
+                <p>Cinematographer & Video Editor</p>
+            </div>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2026 Hamza Selman. All rights reserved. Created with passion for film.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal Overlay -->
+    <div class="video-modal" id="video-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close video player">
+                <i data-lucide="x"></i>
+            </button>
+            <h3 class="modal-title" id="modal-title">Project Video</h3>
+            <div class="video-player-container">
+                <video id="modal-video-element" controls autoplay playsinline src=""></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
